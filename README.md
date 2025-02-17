@@ -1,6 +1,17 @@
 # Lead-Score-Case-Study
 ## Problem Statement:
-X Education, an online learning company, offers courses to industry professionals. Each day, numerous professionals visit the company’s website through various marketing channels such as search engines and partner websites. While browsing, visitors may explore courses, watch videos, or fill out a form with their contact details, thereby becoming a lead. Additionally, the company acquires leads through past referrals.
+X Education, an online learning company, provides professional courses to industry experts. Each day, numerous professionals visit the company's website through various marketing channels such as search engines and partner platforms. These visitors may explore courses, watch informational videos, or fill out a form with their contact details, thereby becoming leads. Additionally, leads are also generated through past referrals.
+
+Once a lead is acquired, the sales team engages with them through calls and emails in an effort to convert them into paying customers. However, the current lead conversion rate is only 30%, meaning that out of every 100 leads, only about 30 successfully convert.
+
+To enhance efficiency, X Education aims to identify high-potential leads ("Hot Leads"), those most likely to convert. By prioritizing these leads, the sales team can optimize their efforts, leading to a significant improvement in the overall conversion rate.
+
+The lead conversion process follows a funnel approach, where a large number of leads enter at the top, but only a small fraction convert at the bottom. In order to improve conversions, potential leads need to be nurtured effectively through consistent communication and product education.
+
+## Objective:
+X Education has tasked you with building a predictive model using logistic regression to assign a lead score (ranging from 0 to 100) to each prospect. A higher score indicates a greater likelihood of conversion, allowing the company to prioritize high-value leads.
+
+The CEO’s target is to increase the lead conversion rate to 80%, making it crucial for the model to be highly accurate and adaptable to evolving business needs.
 
 ## Dataset Overview:
 You have been provided with a historical dataset containing approximately 9,000 data points, each representing a lead. The dataset includes various attributes such as Lead Source, Total Time Spent on Website, Total Visits, Last Activity, and more, which may influence the likelihood of conversion.
